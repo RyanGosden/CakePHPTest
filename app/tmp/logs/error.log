@@ -20,3 +20,142 @@ Stack Trace:
 #2 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
 #4 {main}
+2016-02-11 08:20:41 Error: [MissingActionException] Action CakePHPTestController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakePHPTestController',
+  'action' => 'index',
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ryan/Dev/CakePHP Test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CakePHPTestController), Object(CakeRequest))
+#2 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#4 {main}
+2016-02-11 08:36:03 Error: [MissingActionException] Action CakePHPTestController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakePHPTestController',
+  'action' => 'index',
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ryan/Dev/CakePHP Test/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CakePHPTestController), Object(CakeRequest))
+#2 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#4 {main}
+2016-02-11 08:45:28 Error: Fatal Error (1): Call to a member function find() on null in [/home/ryan/Dev/CakePHP Test/app/Controller/CakePHPTestController.php, line 7]
+2016-02-11 08:45:28 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ryan/Dev/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ryan/Dev/...', 7, Array)
+#2 /home/ryan/Dev/CakePHP Test/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ryan/Dev/...', 7, Array)
+#3 /home/ryan/Dev/CakePHP Test/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-02-11 08:49:38 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 08:55:08 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 08:58:08 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 08:58:09 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 08:58:10 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 09:00:05 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 09:01:40 Error: [MissingControllerException] Controller class CakePHPTestController could not be found.
+Exception Attributes: array (
+  'class' => 'CakePHPTestController',
+  'plugin' => NULL,
+)
+Request URL: /CakePHP Test/index.php/CakePHP%20Test/
+Stack Trace:
+#0 /home/ryan/Dev/CakePHP Test/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/CakePHP Test/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 09:03:19 Error: [MissingControllerException] Controller class PostsControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsControllerController',
+  'plugin' => NULL,
+)
+Request URL: /PostsController/index.php/PostsController/
+Stack Trace:
+#0 /home/ryan/Dev/PostsController/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/ryan/Dev/PostsController/index.php(41): require('/home/ryan/Dev/...')
+#2 {main}
+2016-02-11 09:03:42 Error: [MissingViewException] View file "Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/index.ctp',
+)
+Request URL: /Posts/index.php/Posts/
+Stack Trace:
+#0 /home/ryan/Dev/Posts/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ryan/Dev/Posts/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/ryan/Dev/Posts/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ryan/Dev/Posts/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ryan/Dev/Posts/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ryan/Dev/Posts/index.php(41): require('/home/ryan/Dev/...')
+#6 {main}
+2016-02-11 09:17:24 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /Posts/index.php/posts/view/1
+Stack Trace:
+#0 /home/ryan/Dev/Posts/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ryan/Dev/Posts/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ryan/Dev/Posts/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/ryan/Dev/Posts/index.php(41): require('/home/ryan/Dev/...')
+#4 {main}
